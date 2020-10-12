@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Enemy">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAEgAAEAAAAgAAAAAAAIACAAAAAAAAAAAgAAAgAAg=</HashCode>
+      <FileName>User Files\Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestroyerDroid">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQABAAAEAAAQgAAAgAACAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>User Files\DestroyerDroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JetFighter">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAQgAAAAAAAAAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>User Files\JetFighter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

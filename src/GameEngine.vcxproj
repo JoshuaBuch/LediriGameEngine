@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>Lediri</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)";MEMORY_LOGS_DIR=R"($(SolutionDir))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\File\include;$(SolutionDir)dist\AzulCore\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <ForcedIncludeFiles>$(SolutionDir)src\MemTracker\framework.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h" />
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Image.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h" />
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Model.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h" />
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h" />
+    <ClInclude Include="..\dist\File\include\File.h" />
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h" />
+    <ClInclude Include="..\dist\Math\include\Align16.h" />
+    <ClInclude Include="..\dist\Math\include\Constants.h" />
+    <ClInclude Include="..\dist\Math\include\Enum.h" />
+    <ClInclude Include="..\dist\Math\include\MathApp.h" />
+    <ClInclude Include="..\dist\Math\include\MathEngine.h" />
+    <ClInclude Include="..\dist\Math\include\Matrix.h" />
+    <ClInclude Include="..\dist\Math\include\Quat.h" />
+    <ClInclude Include="..\dist\Math\include\QuatApp.h" />
+    <ClInclude Include="..\dist\Math\include\Util.h" />
+    <ClInclude Include="..\dist\Math\include\Vect.h" />
+    <ClInclude Include="..\dist\Math\include\VectApp.h" />
+    <ClInclude Include="..\dist\SB6\include\arcball.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h" />
+    <ClInclude Include="..\dist\SB6\include\object.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h" />
+    <ClInclude Include="..\dist\SB6\include\shader.h" />
+    <ClInclude Include="..\dist\SB6\include\vmath.h" />
+    <ClInclude Include="Lediri Engine\AlarmDeregistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\AlarmObject.h" />
+    <ClInclude Include="Lediri Engine\AlarmObjectAttorney.h" />
+    <ClInclude Include="Lediri Engine\AlarmObjectManager.h" />
+    <ClInclude Include="Lediri Engine\AlarmRegistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\Camera Manager.h" />
+    <ClInclude Include="Lediri Engine\CellValues.h" />
+    <ClInclude Include="Lediri Engine\COGroupDeleteCommand.h" />
+    <ClInclude Include="Lediri Engine\CollisionDeregistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\CollisionManager.h" />
+    <ClInclude Include="Lediri Engine\CollisionObject.h" />
+    <ClInclude Include="Lediri Engine\CollisionObjectGroup.h" />
+    <ClInclude Include="Lediri Engine\CollisionRegistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\CollisionTestCommandBase.h" />
+    <ClInclude Include="Lediri Engine\CollisionTestPairCommand.h" />
+    <ClInclude Include="Lediri Engine\CollisionTestPairCommand_NoTier.h" />
+    <ClInclude Include="Lediri Engine\CollisionTestSelfCommand.h" />
+    <ClInclude Include="Lediri Engine\CollisionVolume.h" />
+    <ClInclude Include="Lediri Engine\CollisionVolumeAABB.h" />
+    <ClInclude Include="Lediri Engine\CollisionVolumeBoundingBoxBase.h" />
+    <ClInclude Include="Lediri Engine\CollisionVolumeBSphere.h" />
+    <ClInclude Include="Lediri Engine\CollisionVolumeOBB.h" />
+    <ClInclude Include="Lediri Engine\CollisionVolumeType.h" />
+    <ClInclude Include="Lediri Engine\Color.h" />
+    <ClInclude Include="Lediri Engine\CommandBase.h" />
+    <ClInclude Include="Lediri Engine\DrawDeregistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\DrawObject.h" />
+    <ClInclude Include="Lediri Engine\DrawObjectAttorney.h" />
+    <ClInclude Include="Lediri Engine\DrawObjectManager.h" />
+    <ClInclude Include="Lediri Engine\DrawRegistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\FreezeTime.h" />
+    <ClInclude Include="Lediri Engine\GameObject.h" />
+    <ClInclude Include="Lediri Engine\GameObjectDependencies.h" />
+    <ClInclude Include="Lediri Engine\GameObjectEntryCommand.h" />
+    <ClInclude Include="Lediri Engine\GameObjectExitCommand.h" />
+    <ClInclude Include="Lediri Engine\ImageManager.h" />
+    <ClInclude Include="Lediri Engine\ImageManagerAttorney.h" />
+    <ClInclude Include="Lediri Engine\InputDeregistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\InputEventTypeEnum.h" />
+    <ClInclude Include="Lediri Engine\InputObject.h" />
+    <ClInclude Include="Lediri Engine\InputObjectAttorney.h" />
+    <ClInclude Include="Lediri Engine\InputRegistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\KeyboardEventManager.h" />
+    <ClInclude Include="Lediri Engine\Lediri.h" />
+    <ClInclude Include="Lediri Engine\LediriMathTools.h" />
+    <ClInclude Include="Lediri Engine\ModelManager.h" />
+    <ClInclude Include="Lediri Engine\ModelManagerAttorney.h" />
+    <ClInclude Include="Lediri Engine\PhysicsObject.h" />
+    <ClInclude Include="Lediri Engine\RegistrationStateEnum.h" />
+    <ClInclude Include="Lediri Engine\Scene.h" />
+    <ClInclude Include="Lediri Engine\SceneAttorney.h" />
+    <ClInclude Include="Lediri Engine\SceneChangeCommand.h" />
+    <ClInclude Include="Lediri Engine\SceneChangeCommandBase.h" />
+    <ClInclude Include="Lediri Engine\SceneChangeNullCommand.h" />
+    <ClInclude Include="Lediri Engine\SceneManager.h" />
+    <ClInclude Include="Lediri Engine\SceneNull.h" />
+    <ClInclude Include="Lediri Engine\SceneRegistrationBroker.h" />
+    <ClInclude Include="Lediri Engine\SceneRegistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\ShaderManager.h" />
+    <ClInclude Include="Lediri Engine\ShaderManagerAttorney.h" />
+    <ClInclude Include="Lediri Engine\SingleKeyEventManager.h" />
+    <ClInclude Include="Lediri Engine\Sprite.h" />
+    <ClInclude Include="Lediri Engine\TerrainObject.h" />
+    <ClInclude Include="Lediri Engine\TerrainObjectManager.h" />
+    <ClInclude Include="Lediri Engine\TerrainObjectManagerAttorney.h" />
+    <ClInclude Include="Lediri Engine\TextureManager.h" />
+    <ClInclude Include="Lediri Engine\TextureManagerAttorney.h" />
+    <ClInclude Include="Lediri Engine\TimeManager.h" />
+    <ClInclude Include="Lediri Engine\TimeManagerAttorney.h" />
+    <ClInclude Include="Lediri Engine\UpdateDeregistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\UpdateObject.h" />
+    <ClInclude Include="Lediri Engine\UpdateObjectAttorney.h" />
+    <ClInclude Include="Lediri Engine\UpdateObjectManager.h" />
+    <ClInclude Include="Lediri Engine\UpdateRegistrationCommand.h" />
+    <ClInclude Include="Lediri Engine\Visualizer.h" />
+    <ClInclude Include="Lediri Engine\VisualizerBroker.h" />
+    <ClInclude Include="Lediri Engine\VisualizerRenderAABBCommand.h" />
+    <ClInclude Include="Lediri Engine\VisualizerRenderCommand.h" />
+    <ClInclude Include="MemTracker\Framework.h" />
+    <ClInclude Include="MemTracker\ProjectSettings.h" />
+    <ClInclude Include="User Files\Axis.h" />
+    <ClInclude Include="User Files\Bullet.h" />
+    <ClInclude Include="User Files\BulletFactory.h" />
+    <ClInclude Include="User Files\Cottage.h" />
+    <ClInclude Include="User Files\Cube.h" />
+    <ClInclude Include="User Files\DemoScene.h" />
+    <ClInclude Include="User Files\DestroyerDroid.h" />
+    <ClInclude Include="User Files\DestroyerDroidState.h" />
+    <ClInclude Include="User Files\DestroyerDroidState_Chase.h" />
+    <ClInclude Include="User Files\DestroyerDroidState_Idle.h" />
+    <ClInclude Include="User Files\DestroyerDroid_FSM.h" />
+    <ClInclude Include="User Files\Enemy.h" />
+    <ClInclude Include="User Files\EnemyBullet.h" />
+    <ClInclude Include="User Files\EnemyBulletFactory.h" />
+    <ClInclude Include="User Files\EnemySpawner.h" />
+    <ClInclude Include="User Files\EnemyTank.h" />
+    <ClInclude Include="User Files\EnemyTankState.h" />
+    <ClInclude Include="User Files\EnemyTankState_Attack.h" />
+    <ClInclude Include="User Files\EnemyTankState_Idle.h" />
+    <ClInclude Include="User Files\EnemyTankState_Patrol.h" />
+    <ClInclude Include="User Files\EnemyTank_FSM.h" />
+    <ClInclude Include="User Files\Frigate.h" />
+    <ClInclude Include="User Files\GameManager.h" />
+    <ClInclude Include="User Files\GodCamObject.h" />
+    <ClInclude Include="User Files\Ground.h" />
+    <ClInclude Include="User Files\JetFighter.h" />
+    <ClInclude Include="User Files\JetFighterState.h" />
+    <ClInclude Include="User Files\JetFighterState_Chase.h" />
+    <ClInclude Include="User Files\JetFighterState_Patrol.h" />
+    <ClInclude Include="User Files\JetFighterState_Return.h" />
+    <ClInclude Include="User Files\JetFighter_FSM.h" />
+    <ClInclude Include="User Files\JumpTank.h" />
+    <ClInclude Include="User Files\JumpTankState.h" />
+    <ClInclude Include="User Files\JumpTankState_Neutral.h" />
+    <ClInclude Include="User Files\JumpTankState_Terrain.h" />
+    <ClInclude Include="User Files\JumpTank_FSM.h" />
+    <ClInclude Include="User Files\KeyStateTest.h" />
+    <ClInclude Include="User Files\L1Trigger_01.h" />
+    <ClInclude Include="User Files\L2Trigger_01.h" />
+    <ClInclude Include="User Files\L2Trigger_02.h" />
+    <ClInclude Include="User Files\LevelEnd_1.h" />
+    <ClInclude Include="User Files\LevelEnd_2.h" />
+    <ClInclude Include="User Files\LevelManager.h" />
+    <ClInclude Include="User Files\Level_1.h" />
+    <ClInclude Include="User Files\Level_2.h" />
+    <ClInclude Include="User Files\LM_01.h" />
+    <ClInclude Include="User Files\LM_02.h" />
+    <ClInclude Include="User Files\PhysicsDemoScene.h" />
+    <ClInclude Include="User Files\Plane.h" />
+    <ClInclude Include="User Files\StitchSprite.h" />
+    <ClInclude Include="User Files\Tank.h" />
+    <ClInclude Include="User Files\TerrainScene.h" />
+    <ClInclude Include="User Files\TesterObject.h" />
+    <ClInclude Include="User Files\TestScene.h" />
+    <ClInclude Include="User Files\TitleProgressor.h" />
+    <ClInclude Include="User Files\TitleScene.h" />
+    <ClInclude Include="User Files\TriggerObject.h" />
+    <ClInclude Include="User Files\WinProgressor.h" />
+    <ClInclude Include="User Files\WinScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib" />
+    <Library Include="..\dist\File\lib\File_Debug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib" />
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lediri Engine\AlarmDeregistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\AlarmObject.cpp" />
+    <ClCompile Include="Lediri Engine\AlarmObjectManager.cpp" />
+    <ClCompile Include="Lediri Engine\AlarmRegistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\Camera Manager.cpp" />
+    <ClCompile Include="Lediri Engine\CellValues.cpp" />
+    <ClCompile Include="Lediri Engine\COGroupDeleteCommand.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionManager.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionObject.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionObjectGroup.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionRegistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionVolumeAABB.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionVolumeBoundingBoxBase.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionVolumeBSphere.cpp" />
+    <ClCompile Include="Lediri Engine\CollisionVolumeOBB.cpp" />
+    <ClCompile Include="Lediri Engine\Color.cpp" />
+    <ClCompile Include="Lediri Engine\DrawDeregistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\DrawObject.cpp" />
+    <ClCompile Include="Lediri Engine\DrawObjectManager.cpp" />
+    <ClCompile Include="Lediri Engine\DrawRegistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\FreezeTime.cpp" />
+    <ClCompile Include="Lediri Engine\GameObject.cpp" />
+    <ClCompile Include="Lediri Engine\GameObjectEntryCommand.cpp" />
+    <ClCompile Include="Lediri Engine\GameObjectExitCommand.cpp" />
+    <ClCompile Include="Lediri Engine\ImageManager.cpp" />
+    <ClCompile Include="Lediri Engine\InputDeregistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\InputObject.cpp" />
+    <ClCompile Include="Lediri Engine\InputRegistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\KeyboardEventManager.cpp" />
+    <ClCompile Include="Lediri Engine\Lediri.cpp" />
+    <ClCompile Include="Lediri Engine\LediriMathTools.cpp" />
+    <ClCompile Include="Lediri Engine\main.cpp" />
+    <ClCompile Include="Lediri Engine\ModelManager.cpp" />
+    <ClCompile Include="Lediri Engine\PhysicsObject.cpp" />
+    <ClCompile Include="Lediri Engine\Scene.cpp" />
+    <ClCompile Include="Lediri Engine\SceneChangeCommand.cpp" />
+    <ClCompile Include="Lediri Engine\SceneManager.cpp" />
+    <ClCompile Include="Lediri Engine\SceneRegistrationBroker.cpp" />
+    <ClCompile Include="Lediri Engine\ShaderManager.cpp" />
+    <ClCompile Include="Lediri Engine\SingleKeyEventManager.cpp" />
+    <ClCompile Include="Lediri Engine\Sprite.cpp" />
+    <ClCompile Include="Lediri Engine\TerrainObject.cpp" />
+    <ClCompile Include="Lediri Engine\TerrainObjectManager.cpp" />
+    <ClCompile Include="Lediri Engine\TextureManager.cpp" />
+    <ClCompile Include="Lediri Engine\TimeManager.cpp" />
+    <ClCompile Include="Lediri Engine\UpdateDeregistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\UpdateObject.cpp" />
+    <ClCompile Include="Lediri Engine\UpdateObjectManager.cpp" />
+    <ClCompile Include="Lediri Engine\UpdateRegistrationCommand.cpp" />
+    <ClCompile Include="Lediri Engine\Visualizer.cpp" />
+    <ClCompile Include="Lediri Engine\VisualizerBroker.cpp" />
+    <ClCompile Include="Lediri Engine\VisualizerRenderAABBCommand.cpp" />
+    <ClCompile Include="Lediri Engine\VisualizerRenderCommand.cpp" />
+    <ClCompile Include="Lediri Resources\LoadResources.cpp" />
+    <ClCompile Include="User Files\Axis.cpp" />
+    <ClCompile Include="User Files\Bullet.cpp" />
+    <ClCompile Include="User Files\BulletFactory.cpp" />
+    <ClCompile Include="User Files\Cottage.cpp" />
+    <ClCompile Include="User Files\Cube.cpp" />
+    <ClCompile Include="User Files\DemoScene.cpp" />
+    <ClCompile Include="User Files\DestroyerDroid.cpp" />
+    <ClCompile Include="User Files\DestroyerDroidState.cpp" />
+    <ClCompile Include="User Files\DestroyerDroidState_Chase.cpp" />
+    <ClCompile Include="User Files\DestroyerDroidState_Idle.cpp" />
+    <ClCompile Include="User Files\DestroyerDroid_FSM.cpp" />
+    <ClCompile Include="User Files\Enemy.cpp" />
+    <ClCompile Include="User Files\EnemyBullet.cpp" />
+    <ClCompile Include="User Files\EnemyBulletFactory.cpp" />
+    <ClCompile Include="User Files\EnemySpawner.cpp" />
+    <ClCompile Include="User Files\EnemyTank.cpp" />
+    <ClCompile Include="User Files\EnemyTankState_Attack.cpp" />
+    <ClCompile Include="User Files\EnemyTankState_Idle.cpp" />
+    <ClCompile Include="User Files\EnemyTankState_Patrol.cpp" />
+    <ClCompile Include="User Files\EnemyTank_FSM.cpp" />
+    <ClCompile Include="User Files\Frigate.cpp" />
+    <ClCompile Include="User Files\GameManager.cpp" />
+    <ClCompile Include="User Files\GodCamObject.cpp" />
+    <ClCompile Include="User Files\Ground.cpp" />
+    <ClCompile Include="User Files\JetFighter.cpp" />
+    <ClCompile Include="User Files\JetFighterState_Chase.cpp" />
+    <ClCompile Include="User Files\JetFighterState_Patrol.cpp" />
+    <ClCompile Include="User Files\JetFighterState_Return.cpp" />
+    <ClCompile Include="User Files\JetFighter_FSM.cpp" />
+    <ClCompile Include="User Files\JumpTank.cpp" />
+    <ClCompile Include="User Files\JumpTankState_Neutral.cpp" />
+    <ClCompile Include="User Files\JumpTankState_Terrain.cpp" />
+    <ClCompile Include="User Files\KeyStateTest.cpp" />
+    <ClCompile Include="User Files\L1Trigger_01.cpp" />
+    <ClCompile Include="User Files\L2Trigger_01.cpp" />
+    <ClCompile Include="User Files\L2Trigger_02.cpp" />
+    <ClCompile Include="User Files\LevelEnd_1.cpp" />
+    <ClCompile Include="User Files\LevelEnd_2.cpp" />
+    <ClCompile Include="User Files\LevelManager.cpp" />
+    <ClCompile Include="User Files\Level_1.cpp" />
+    <ClCompile Include="User Files\Level_2.cpp" />
+    <ClCompile Include="User Files\LM_01.cpp" />
+    <ClCompile Include="User Files\LM_02.cpp" />
+    <ClCompile Include="User Files\PhysicsDemoScene.cpp" />
+    <ClCompile Include="User Files\Plane.cpp" />
+    <ClCompile Include="User Files\StitchSprite.cpp" />
+    <ClCompile Include="User Files\Tank.cpp" />
+    <ClCompile Include="User Files\TerrainScene.cpp" />
+    <ClCompile Include="User Files\TesterObject.cpp" />
+    <ClCompile Include="User Files\TestScene.cpp" />
+    <ClCompile Include="User Files\TitleProgressor.cpp" />
+    <ClCompile Include="User Files\TitleScene.cpp" />
+    <ClCompile Include="User Files\TriggerObject.cpp" />
+    <ClCompile Include="User Files\WinProgressor.cpp" />
+    <ClCompile Include="User Files\WinScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

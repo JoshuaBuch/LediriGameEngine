@@ -1,0 +1,1128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{aef3393e-06a5-4f08-bf4a-3b6be12d1e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{d22a518f-dd11-48ea-8247-bd82c5928233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{f1613e77-99f1-482b-bccf-12b6784f3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{c350b52d-8efa-4eca-a258-d57d45c43245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{189a2178-2765-49df-b052-8eca24a60d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{841af908-0674-4949-8aa0-292e3e84a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{d2f5d78b-d9cf-4bd9-bd4e-df7522de593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{fb44cdb2-f236-4b3b-833e-e9e2c3af59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{23abe339-ce80-4523-b0f0-23747e3f512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{323b20aa-e08c-4260-84b1-1e85121a9e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{9fcc2c9b-3e4f-4ab2-a0c5-3099cdf90300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{ea7cbe8f-1aeb-4ad2-bd4e-fa300408bd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{5d126765-1977-4213-89fb-e004f6468da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{d3f91089-c7e6-474d-8376-afd372d35a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{8a854cfc-9294-4797-b476-0b2feacdd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{60eabb98-a714-4df4-8fa1-3fb92ea55bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine">
+      <UniqueIdentifier>{6411cf3f-a9e7-4a37-bd6f-86c370a0fc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Asset Managers">
+      <UniqueIdentifier>{82b45c0c-4958-457f-b91d-a095edf375ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Resources">
+      <UniqueIdentifier>{5f1780b9-1f24-45ee-a0be-72581d2a0990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object">
+      <UniqueIdentifier>{ebcf08bc-540a-4bfe-a941-cd1190fb7121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files">
+      <UniqueIdentifier>{0ff26e59-7705-4c11-95a0-02248d8a81e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects">
+      <UniqueIdentifier>{e5579468-0027-40a8-803a-9974313add86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\AlarmObject">
+      <UniqueIdentifier>{b742e1ea-2d70-4d39-a811-a65c1956f24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\UpdateObject">
+      <UniqueIdentifier>{51a67f77-4507-4b96-9d81-1e33b454e358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\DrawObject">
+      <UniqueIdentifier>{3de01006-5ce8-4476-b28a-a6046c9023c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\InputObject">
+      <UniqueIdentifier>{45d3cdb5-f1db-47d8-bac5-fbe6d56f2f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\TestCode">
+      <UniqueIdentifier>{ce471371-8e75-4b46-ba87-f6f8aaf8e784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\AlarmObject\AlarmCommands">
+      <UniqueIdentifier>{91d10c23-6467-4ff4-8b35-3f425d5f814c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\DrawObject\DrawCommands">
+      <UniqueIdentifier>{ee81c0f2-b554-41bb-a353-19414ea292fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\InputObject\InputCommands">
+      <UniqueIdentifier>{05520172-2078-4f58-9bbb-b1b0c81372e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Command Base Classes">
+      <UniqueIdentifier>{0a4a2577-f798-4736-94eb-900945daf086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\UpdateObject\UpdateCommands">
+      <UniqueIdentifier>{961611bd-92a9-46bf-9629-11b9cc7a9ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\CollisionObject">
+      <UniqueIdentifier>{207ed376-ea00-498d-93a7-779f110e3ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands">
+      <UniqueIdentifier>{7755c40b-d887-43a7-9608-efcbc1a985f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes">
+      <UniqueIdentifier>{9239baaf-21b7-4c41-9d78-cf35b7a534a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Visualizer">
+      <UniqueIdentifier>{7f13a1d4-7b35-4ad1-ab5f-05579b322df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Scene">
+      <UniqueIdentifier>{c7872cab-07c0-4a57-8fe1-9fcd3dbaea2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Scene\Scene Commands">
+      <UniqueIdentifier>{2f72e2af-70e4-4553-ac7a-4aa962a0a55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Camera">
+      <UniqueIdentifier>{c613c967-646d-4040-997c-94ba04097aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\Sprites">
+      <UniqueIdentifier>{7924db1d-3aad-4435-9145-9c3d4771618b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Sprite">
+      <UniqueIdentifier>{3af4e548-c40f-4e46-9391-59107dce007a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Time">
+      <UniqueIdentifier>{cc8f4f0b-8c4c-4849-88b6-4e5975527c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\Scenes">
+      <UniqueIdentifier>{d5adebc5-07d0-442d-a001-0e3de970ce0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\Game Object Dependencies">
+      <UniqueIdentifier>{6a2b7189-2d6f-4db3-b735-cda49fb14dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\PhysicsGO">
+      <UniqueIdentifier>{8f6bca26-66a2-4b27-98e6-121e472dcf4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Game Object\PhysicsObject">
+      <UniqueIdentifier>{52b47137-ba2f-420c-be97-023146793fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\MemTracker">
+      <UniqueIdentifier>{dd2dd008-0188-4a1d-b506-32bd5b637825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies">
+      <UniqueIdentifier>{bf4a8697-d62d-4380-95e6-50da04344f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Player">
+      <UniqueIdentifier>{29710c74-a100-4dc1-a8d8-0441086e7868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\Managers">
+      <UniqueIdentifier>{76320b0d-2b6d-411b-b3c8-9d8cff610f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\EnemyBase">
+      <UniqueIdentifier>{94d5805c-6cf1-452e-b9f7-22e0fdebe0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\DestroyerDroid">
+      <UniqueIdentifier>{6c0a0c8d-9e66-4fe1-96b4-187650e74b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM">
+      <UniqueIdentifier>{eb3ca67a-1970-4217-ae74-04ece698c1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Lediri Engine\Terrain">
+      <UniqueIdentifier>{b6044d67-1a01-4e00-bf69-a35d8a682ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\EnemyTank">
+      <UniqueIdentifier>{4f6fc0ef-8fc5-4720-9e28-e6d7c6f536ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM">
+      <UniqueIdentifier>{12a76bd6-d71c-4beb-8895-286f9bc5ab81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\JetFighter">
+      <UniqueIdentifier>{2ff98ecd-d7c5-49f5-8d7c-fdd6871c98b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM">
+      <UniqueIdentifier>{10871196-9ee6-4a92-bddd-5a32e6dbf79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Player\JumpTank_FSM">
+      <UniqueIdentifier>{b812800d-7a10-49f1-a856-571a10cb524a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Ground">
+      <UniqueIdentifier>{2072c54a-2b7a-4d5b-9d17-e257b79a8e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Enemies\EnemyProjectile">
+      <UniqueIdentifier>{36e7bdb2-ed7d-4ff6-b533-24e3affa69c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\Player\Bullet">
+      <UniqueIdentifier>{12f346f3-f420-410d-9ad8-021afe4f9381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\TriggerObject">
+      <UniqueIdentifier>{bf14a9ab-dd24-45e1-842c-53910b841449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\Managers\LevelManagers">
+      <UniqueIdentifier>{0b8e2968-57d1-4395-ae7b-d022a1eb22ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Files\GameObjects\TriggerObject\Level Triggers">
+      <UniqueIdentifier>{cadb9a85-75a2-4f84-ac8c-e5c612bd8eb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\Lediri.h">
+      <Filter>Application\Lediri Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\ShaderManager.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\TextureManager.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\GameObject.h">
+      <Filter>Application\Lediri Engine\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Plane.h">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Axis.h">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Frigate.h">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CommandBase.h">
+      <Filter>Application\Lediri Engine\Command Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\RegistrationStateEnum.h">
+      <Filter>Application\Lediri Engine\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\ModelManagerAttorney.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\ModelManager.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\ShaderManagerAttorney.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\TextureManagerAttorney.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\AlarmObject.h">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\AlarmObjectManager.h">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\DrawObject.h">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\DrawObjectManager.h">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\InputObject.h">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\UpdateObject.h">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\UpdateObjectAttorney.h">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\UpdateObjectManager.h">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\DrawObjectAttorney.h">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\AlarmObjectAttorney.h">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\TesterObject.h">
+      <Filter>Application\User Files\TestCode</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\KeyStateTest.h">
+      <Filter>Application\User Files\TestCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SingleKeyEventManager.h">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\InputObjectAttorney.h">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\InputEventTypeEnum.h">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\KeyboardEventManager.h">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\AlarmDeregistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject\AlarmCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\AlarmRegistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject\AlarmCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\DrawDeregistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject\DrawCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\DrawRegistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject\DrawCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\InputDeregistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\InputObject\InputCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\InputRegistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\InputObject\InputCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\UpdateDeregistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject\UpdateCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\UpdateRegistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject\UpdateCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\GameObjectEntryCommand.h">
+      <Filter>Application\Lediri Engine\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\GameObjectExitCommand.h">
+      <Filter>Application\Lediri Engine\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionObject.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionManager.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionObjectGroup.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneRegistrationCommand.h">
+      <Filter>Application\Lediri Engine\Command Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionTestCommandBase.h">
+      <Filter>Application\Lediri Engine\Command Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionTestSelfCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionTestPairCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionRegistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\COGroupDeleteCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionVolume.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionVolumeBSphere.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\Color.h">
+      <Filter>Application\Lediri Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\LediriMathTools.h">
+      <Filter>Application\Lediri Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Tank.h">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\Visualizer.h">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\VisualizerRenderCommand.h">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneChangeCommandBase.h">
+      <Filter>Application\Lediri Engine\Command Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\Scene.h">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneManager.h">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneRegistrationBroker.h">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneChangeNullCommand.h">
+      <Filter>Application\Lediri Engine\Scene\Scene Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneChangeCommand.h">
+      <Filter>Application\Lediri Engine\Scene\Scene Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneNull.h">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\Camera Manager.h">
+      <Filter>Application\Lediri Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\StitchSprite.h">
+      <Filter>Application\User Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\ImageManager.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\Sprite.h">
+      <Filter>Application\Lediri Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\ImageManagerAttorney.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\TimeManager.h">
+      <Filter>Application\Lediri Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\TimeManagerAttorney.h">
+      <Filter>Application\Lediri Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\FreezeTime.h">
+      <Filter>Application\Lediri Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\DemoScene.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\TestScene.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionDeregistrationCommand.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\SceneAttorney.h">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\GameObjectDependencies.h">
+      <Filter>Application\Lediri Engine\Game Object\Game Object Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemySpawner.h">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionVolumeAABB.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Cottage.h">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionVolumeType.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\VisualizerBroker.h">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\VisualizerRenderAABBCommand.h">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionVolumeOBB.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionVolumeBoundingBoxBase.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\PhysicsDemoScene.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Cube.h">
+      <Filter>Application\User Files\PhysicsGO</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\PhysicsObject.h">
+      <Filter>Application\Lediri Engine\Game Object\PhysicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\Framework.h">
+      <Filter>Application\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\ProjectSettings.h">
+      <Filter>Application\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Level_1.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JumpTank.h">
+      <Filter>Application\User Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\LevelManager.h">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\GameManager.h">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Enemy.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CollisionTestPairCommand_NoTier.h">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\DestroyerDroid.h">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\DestroyerDroid_FSM.h">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\DestroyerDroidState.h">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\DestroyerDroidState_Idle.h">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\DestroyerDroidState_Chase.h">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\TerrainScene.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyTank.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyTank_FSM.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyTankState.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyTankState_Patrol.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\GodCamObject.h">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JetFighter.h">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JetFighter_FSM.h">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JetFighterState.h">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JetFighterState_Patrol.h">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JetFighterState_Chase.h">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\CellValues.h">
+      <Filter>Application\Lediri Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\TerrainObject.h">
+      <Filter>Application\Lediri Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\TerrainObjectManager.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lediri Engine\TerrainObjectManagerAttorney.h">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyTankState_Idle.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyTankState_Attack.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JumpTank_FSM.h">
+      <Filter>Application\User Files\GameObjects\Player\JumpTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JumpTankState.h">
+      <Filter>Application\User Files\GameObjects\Player\JumpTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JumpTankState_Neutral.h">
+      <Filter>Application\User Files\GameObjects\Player\JumpTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JumpTankState_Terrain.h">
+      <Filter>Application\User Files\GameObjects\Player\JumpTank_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Ground.h">
+      <Filter>Application\User Files\GameObjects\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyBullet.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\TitleScene.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\TitleProgressor.h">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\BulletFactory.h">
+      <Filter>Application\User Files\GameObjects\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Bullet.h">
+      <Filter>Application\User Files\GameObjects\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\JetFighterState_Return.h">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\TriggerObject.h">
+      <Filter>Application\User Files\GameObjects\TriggerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\LM_01.h">
+      <Filter>Application\User Files\Managers\LevelManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\L1Trigger_01.h">
+      <Filter>Application\User Files\GameObjects\TriggerObject\Level Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\LM_02.h">
+      <Filter>Application\User Files\Managers\LevelManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\Level_2.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\L2Trigger_01.h">
+      <Filter>Application\User Files\GameObjects\TriggerObject\Level Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\L2Trigger_02.h">
+      <Filter>Application\User Files\GameObjects\TriggerObject\Level Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\LevelEnd_1.h">
+      <Filter>Application\User Files\GameObjects\TriggerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\LevelEnd_2.h">
+      <Filter>Application\User Files\GameObjects\TriggerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\WinScene.h">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\WinProgressor.h">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Files\EnemyBulletFactory.h">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyProjectile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lediri Engine\Lediri.cpp">
+      <Filter>Application\Lediri Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\main.cpp">
+      <Filter>Application\Lediri Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\ModelManager.cpp">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\ShaderManager.cpp">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\TextureManager.cpp">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Resources\LoadResources.cpp">
+      <Filter>Application\Lediri Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\GameObject.cpp">
+      <Filter>Application\Lediri Engine\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Plane.cpp">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Axis.cpp">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Frigate.cpp">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\AlarmObject.cpp">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\AlarmObjectManager.cpp">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\DrawObject.cpp">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\DrawObjectManager.cpp">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\UpdateObject.cpp">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\UpdateObjectManager.cpp">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\TesterObject.cpp">
+      <Filter>Application\User Files\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\KeyStateTest.cpp">
+      <Filter>Application\User Files\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\InputObject.cpp">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\SingleKeyEventManager.cpp">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\KeyboardEventManager.cpp">
+      <Filter>Application\Lediri Engine\Game Object\InputObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\AlarmDeregistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject\AlarmCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\AlarmRegistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\AlarmObject\AlarmCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\DrawDeregistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject\DrawCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\DrawRegistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\DrawObject\DrawCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\InputDeregistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\InputObject\InputCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\InputRegistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\InputObject\InputCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\UpdateDeregistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject\UpdateCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\UpdateRegistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\UpdateObject\UpdateCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\GameObjectEntryCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\GameObjectExitCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionObject.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionManager.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionObjectGroup.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionRegistrationCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\COGroupDeleteCommand.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\CollisionCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionVolumeBSphere.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\Color.cpp">
+      <Filter>Application\Lediri Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\LediriMathTools.cpp">
+      <Filter>Application\Lediri Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Tank.cpp">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\Visualizer.cpp">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\Scene.cpp">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\SceneManager.cpp">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\SceneRegistrationBroker.cpp">
+      <Filter>Application\Lediri Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\SceneChangeCommand.cpp">
+      <Filter>Application\Lediri Engine\Scene\Scene Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\Camera Manager.cpp">
+      <Filter>Application\Lediri Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\StitchSprite.cpp">
+      <Filter>Application\User Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\ImageManager.cpp">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\Sprite.cpp">
+      <Filter>Application\Lediri Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\TimeManager.cpp">
+      <Filter>Application\Lediri Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\FreezeTime.cpp">
+      <Filter>Application\Lediri Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\DemoScene.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\TestScene.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\VisualizerRenderCommand.cpp">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemySpawner.cpp">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionVolumeAABB.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Cottage.cpp">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\VisualizerBroker.cpp">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\VisualizerRenderAABBCommand.cpp">
+      <Filter>Application\Lediri Engine\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionVolumeOBB.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CollisionVolumeBoundingBoxBase.cpp">
+      <Filter>Application\Lediri Engine\Game Object\CollisionObject\Collision Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\PhysicsDemoScene.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Cube.cpp">
+      <Filter>Application\User Files\PhysicsGO</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\PhysicsObject.cpp">
+      <Filter>Application\Lediri Engine\Game Object\PhysicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Level_1.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JumpTank.cpp">
+      <Filter>Application\User Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\LevelManager.cpp">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\GameManager.cpp">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Enemy.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyBase</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\DestroyerDroid.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\DestroyerDroidState_Idle.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\DestroyerDroid_FSM.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\DestroyerDroidState_Chase.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\DestroyerDroid\DestroyerDroid_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\DestroyerDroidState.cpp" />
+    <ClCompile Include="User Files\TerrainScene.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemyTank.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemyTank_FSM.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemyTankState_Patrol.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\GodCamObject.cpp">
+      <Filter>Application\User Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JetFighter.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JetFighter_FSM.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JetFighterState_Patrol.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JetFighterState_Chase.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\CellValues.cpp">
+      <Filter>Application\Lediri Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\TerrainObject.cpp">
+      <Filter>Application\Lediri Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Lediri Engine\TerrainObjectManager.cpp">
+      <Filter>Application\Lediri Engine\Asset Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemyTankState_Idle.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemyTankState_Attack.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyTank\EnemyTank_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JumpTankState_Neutral.cpp">
+      <Filter>Application\User Files\GameObjects\Player\JumpTank_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JumpTankState_Terrain.cpp">
+      <Filter>Application\User Files\GameObjects\Player\JumpTank_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Ground.cpp">
+      <Filter>Application\User Files\GameObjects\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemyBullet.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\TitleScene.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\TitleProgressor.cpp">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\BulletFactory.cpp">
+      <Filter>Application\User Files\GameObjects\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Bullet.cpp">
+      <Filter>Application\User Files\GameObjects\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\JetFighterState_Return.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\JetFighter\JetFighter_FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\TriggerObject.cpp">
+      <Filter>Application\User Files\GameObjects\TriggerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\LM_01.cpp">
+      <Filter>Application\User Files\Managers\LevelManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\L1Trigger_01.cpp">
+      <Filter>Application\User Files\GameObjects\TriggerObject\Level Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\LM_02.cpp">
+      <Filter>Application\User Files\Managers\LevelManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\Level_2.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\L2Trigger_01.cpp">
+      <Filter>Application\User Files\GameObjects\TriggerObject\Level Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\L2Trigger_02.cpp">
+      <Filter>Application\User Files\GameObjects\TriggerObject\Level Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\LevelEnd_1.cpp">
+      <Filter>Application\User Files\GameObjects\TriggerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\LevelEnd_2.cpp">
+      <Filter>Application\User Files\GameObjects\TriggerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\WinScene.cpp">
+      <Filter>Application\User Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\WinProgressor.cpp">
+      <Filter>Application\User Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Files\EnemyBulletFactory.cpp">
+      <Filter>Application\User Files\GameObjects\Enemies\EnemyProjectile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+</Project>
